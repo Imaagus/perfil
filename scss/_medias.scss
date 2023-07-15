@@ -1,0 +1,35 @@
+@media (max-width:1024px){
+    .sobremi{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+@media (max-width:768px){
+    .presentacion {
+        font-size: 18px;
+      }
+      .sobremi {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 50px;
+        font-size: 16px;
+      }
+      .contacto{
+       margin-top: 100px;
+    }
+}
+@media(max-width:576px){
+    .presentacion h1 {
+        font-size: 36px;
+        width: 80%;
+      }
+      .presentacion img {
+        height: 150px;
+        width: 150px;
+      }
+      .sobremi {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+}

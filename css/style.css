@@ -1,0 +1,115 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: rgb(46, 45, 45);
+}
+
+.navbar {
+  padding: 0px;
+}
+
+.container-fluid {
+  background-color: rgb(65, 64, 64);
+}
+
+.collapse {
+  padding-top: 25px;
+  justify-content: end;
+}
+.collapse ul li a {
+  color: white;
+}
+
+h1 {
+  width: 60%;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 40px;
+  color: white;
+}
+
+.presentacion {
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.presentacion img {
+  width: 300px;
+  height: 300px;
+}
+
+.sobremi {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.sobremi p {
+  color: white;
+  font-size: 20px;
+}
+
+.contacto {
+  margin: auto;
+  margin-top: 200px;
+  margin-bottom: 20px;
+  height: 50px;
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border-radius: 10px;
+  align-items: center;
+  background-color: white;
+  justify-content: space-evenly;
+}
+.contacto img {
+  height: 35px;
+  width: 35px;
+}
+
+@media (max-width: 1024px) {
+  .sobremi {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+@media (max-width: 768px) {
+  .presentacion {
+    font-size: 18px;
+  }
+  .sobremi {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    font-size: 16px;
+  }
+  .contacto {
+    margin-top: 100px;
+  }
+}
+@media (max-width: 576px) {
+  .presentacion h1 {
+    font-size: 36px;
+    width: 80%;
+  }
+  .presentacion img {
+    height: 150px;
+    width: 150px;
+  }
+  .sobremi {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

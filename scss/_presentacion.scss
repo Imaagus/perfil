@@ -1,0 +1,12 @@
+.presentacion {
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    img{
+        width: 300px;
+        height: 300px;
+    }
+}

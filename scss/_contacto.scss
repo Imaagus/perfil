@@ -1,0 +1,18 @@
+.contacto{
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 10px;
+    align-items: center;
+    background-color: white;
+    justify-content: space-evenly;
+    img{
+        height: 35px;
+        width: 35px;
+    }
+}

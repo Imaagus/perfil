@@ -1,0 +1,14 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(46, 45, 45);
+}
+
+@import"navegador";
+@import "titulo";
+@import "presentacion";
+@import"sobremi";
+@import "contacto";
+@import"medias";
